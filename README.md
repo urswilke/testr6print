@@ -38,3 +38,6 @@ MyClass$new()
 #>        <dbl>
 #> test       1
 ```
+
+See also [this](https://github.com/r-lib/pillar/issues/650) related
+github issue.
