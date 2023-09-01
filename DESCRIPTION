@@ -14,6 +14,7 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     pillar,
+    R6,
     tibble
 URL: https://github.com/urswilke/testr6print
 BugReports: https://github.com/urswilke/testr6print/issues
