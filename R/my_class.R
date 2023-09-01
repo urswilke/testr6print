@@ -52,6 +52,5 @@ ctl_new_pillar.tbl_subclass <- function(controller, x, width, ..., title = NULL)
 #' @importFrom pillar tbl_sum
 #' @export
 tbl_sum.tbl_subclass <- function(x, ...) {
-  tables <- attr(x, "d")
-  c(tables$tab_table$TabTitle)
+  c("test title")
 }
