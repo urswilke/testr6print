@@ -15,3 +15,19 @@ new_tbl_subclass <- function() {
   class(res) <- c("tbl_subclass", class(res))
   res
 }
+ctl_new_rowid_pillar.tbl_subclass <- function(controller, x, width, ...) {
+  out <- NextMethod()
+  pillar::new_pillar(
+    list(
+      title = out$title,
+      type = out$type,
+      data = pillar::pillar_component(
+        pillar::new_pillar_shaft(list(row_ids = "test"),
+                                 width = width,
+                                 class = "pillar_rif_shaft"
+        )
+      )
+    ),
+    width = width
+  )
+}
