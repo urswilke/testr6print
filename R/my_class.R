@@ -1,3 +1,4 @@
+#' @export
 MyClass <- R6::R6Class("MyClass",
                        public = list(
                          tbl_subclass_obj = NULL,

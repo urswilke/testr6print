@@ -3,6 +3,7 @@
 S3method(ctl_new_pillar,tbl_subclass)
 S3method(ctl_new_rowid_pillar,tbl_subclass)
 S3method(tbl_sum,tbl_subclass)
+export(MyClass)
 importFrom(pillar,ctl_new_pillar)
 importFrom(pillar,ctl_new_rowid_pillar)
 importFrom(pillar,tbl_sum)
