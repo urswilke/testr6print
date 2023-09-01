@@ -3,5 +3,5 @@
     Code
       MyClass$new()
     Output
-      NULL
+      # A tibble: 0 x 0
 

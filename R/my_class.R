@@ -5,7 +5,7 @@ MyClass <- R6::R6Class("MyClass",
                            self$tbl_subclass_obj <- new_tbl_subclass()
                          },
                          print = function() {
-                           self$tbl_subclass |> print()
+                           self$tbl_subclass_obj |> print()
                            invisible(self)
                          }
                        ))
