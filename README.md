@@ -28,8 +28,8 @@ devtools::install_github("urswilke/testr6print")
 
 ## Example
 
-This is a basic example which shows you how the modified tibble print of
-the object in a field of the dummy class
+This is a basic example which shows you the modified tibble print of the
+object inheriting from `tbl_df` in a field of the dummy R6 class
 
 ``` r
 library(testr6print)
