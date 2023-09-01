@@ -3,5 +3,8 @@
     Code
       MyClass$new()
     Output
-      # A tibble: 0 x 0
+      # A tibble: 1 x 1
+            a
+        <dbl>
+      1     1
 

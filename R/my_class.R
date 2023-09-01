@@ -11,7 +11,7 @@ MyClass <- R6::R6Class("MyClass",
                        ))
 
 new_tbl_subclass <- function() {
-  res <- tibble::tibble()
+  res <- tibble::tibble(a = 1)
   class(res) <- c("tbl_subclass", class(res))
   res
 }
